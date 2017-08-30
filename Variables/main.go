@@ -22,6 +22,11 @@ func main() {
      fmt.Println("The decimal value %f is of type %T", decimal,decimal)
      fmt.Printf("The decimal value %f is of type %T\n", decimal,decimal)
 
+    // This method of declaration of Variable is called Assign and with decimal value float64
+
+     var decimal_64 float64 = 1.23456789
+     fmt.Println("The decimal value %f is of type %T", decimal_64,decimal_64)
+     fmt.Printf("The decimal value %f is of type %T\n", decimal_64,decimal_64)
 
      /* Notes : When we print the statement through "Println" instead of "Printf", %d, %T, or any formatting values will not be taken into consideration. Only with "Printf", we see the %f, %T into consideration. See the execution of this program for more details. */
 
