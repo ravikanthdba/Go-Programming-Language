@@ -39,7 +39,6 @@ func main() {
     fmt.Printf("%v is of type %T\n", variable5,variable5);
 
     /* Notes : If we do not declare any variable, but define them, it takes the default values.
-
        The default value for Integer is 0.
        The default value for Float32 is 0.
        The default value for Float64 is 0.
