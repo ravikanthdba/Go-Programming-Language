@@ -13,7 +13,7 @@ const(
         shift_bits_left = 32 << iota
         shift_bits_left1 = shift_bits_right << iota
 
-        shift_bits_diff_value = 2 << iota
+        shift_bits_diff_value = 3 << iota
         
     )
 
@@ -60,6 +60,6 @@ So 1 << (iota * 10) => 1 << 20 - which means we move 1 by 20 places to the left.
 
 11) shift_bits_left1: IOTA value becomes 6. The expression states, move 1 6 places to the left of the value shift_bits_right. From the above note, the value of shift_bits_right is 2, which in bits is 10. So it has to move 6 places to the left, which now becomes 1000000, which in decimal becomes 128.
 
-
+12) shift_bits_diff_value : IOTA value now becomes 7. Expression : 3 << 7. Number 3 in bits is 011. Now we shift 7 places to the left, meaning, we add 7 0's to the right. It becomes 11000000. Now the decimal for 11000000 binary value is (2^7 + 2^8) = (128 + 256 = 384). Hence the output of 3 << 7 is 384.
 
 */
