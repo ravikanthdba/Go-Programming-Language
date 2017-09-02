@@ -30,6 +30,6 @@ func main(){
 
 7. Since we cannot multiply a float variable with the integer, pi * (r ** 2) could ot work here as the 2 is an integer. Hence we had given all variables to be float32 and given the formula to be pi * (radius * radius)
 
-8. Researching on how to change the type of the variable
+8. Researching on how to change the type of the variable .
 
 */
