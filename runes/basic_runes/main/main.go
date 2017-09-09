@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-    for i := 50; i <= 50000 ; i++ {
+    for i := 66000; i <= 66509 ; i++ {
         fmt.Printf("%v,'-',%v,'-',%v\n", i, string(i), []byte(string(i)))
     }
 }
